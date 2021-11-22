@@ -1,0 +1,14 @@
+﻿@model Departamento
+
+<h1>Detalles de departamento</h1>
+
+<a asp-controller="Departamentos"
+   asp-action="Index">
+    Volver al listado
+
+</a>
+<hr />
+
+<h3>Nombre: @Model.Nombre</h3>
+<h3>Localidad: @Model.Localidad</h3>
+<h3>Número: @Model.Numero</h3>
